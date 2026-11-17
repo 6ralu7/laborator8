@@ -1,0 +1,6 @@
+#include <stdio.h>
+//scrieti un program care sa afiseze mesajul "trebuie sa invat"- constientizez studentul
+int main() {
+    printf("\"Trebuie sa invat\"-constientizez studentul");
+    return 0;
+}

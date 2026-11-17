@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+//sa se citeasca caracter cu caracter N litere de la tastatura. se va intreba daca se doreste o noua executie la apasarea tastei d se continua la apasarea tastei n se iese(se v folosi scanf pt a citi caracter cu cracer) in fiecre iteratie se va afisa
+//a) sirul de litere invers;
+//b) toate literele cu o modificare de cod plus 10, sirul rezultat va trebui de finit tot pe sirul de cractere de la a la z (cifrul Cezar, CEZAR mentioned) folositi doar litere mici;
+
+
+#define N 8;
+int main() {
+    char r='d';
+    while(r=='d'|| r=='D'){
+        char sir[100];
+        int lungime=0;
+        printf("introdu o litera:\n");
+        char c;
+        while(scanf("%c", &c) == 1  && c != 'N'&& c != 'n'){
+            if (c>='a' && c<= 'z'){
+                c='a' + (c - 'a' + 10) %26;
+            }
+          sir[lungime]=c;
+          lungime++;
+        }
+        printf("%s",sir);
+        scanf("%c",&r);
+        
+
+    }
+int res== strcmp(c)
+
+
+
+    return 0;
+}

@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+//care este lungimea sirului 192.168.0.1
+int main() {
+    char v[] = "192.168.0.1";
+
+    printf("%zu",strlen(v));
+
+
+    return 0;
+}

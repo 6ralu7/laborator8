@@ -1,0 +1,11 @@
+#include <stdio.h>
+//sa se initializeze un vector cu caractere numit litere cu care sa printeze primele cinci itere din alfabet.
+
+
+    int main() {
+    char litera[5]={'a','b','c','d','e'};
+    for(int i=0; i<5; i++) {
+        printf("%c", litera[i]);
+    }
+    return 0;
+}
